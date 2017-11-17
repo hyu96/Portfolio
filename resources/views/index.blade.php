@@ -6,6 +6,7 @@
 <title>Quang Huy - Web Developer</title>
 <meta name="description" content="">
 <meta name="author" content="">
+<meta name="csrf-token" content="{{ csrf_token() }}">
 
 <!-- Favicons
     ================================================== -->
@@ -24,7 +25,6 @@
 <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
 <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
-<script type="text/javascript" src="js/modernizr.custom.js"></script>
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -83,7 +83,7 @@
         <div class="about-text">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare.</p>
-          <p class="text-center"><a class="btn btn-primary"><i class="fa fa-download"></i> Download Resume</a></p>
+          <p class="text-center"><a class="btn btn-primary" id="download" href="{{ route('resume') }}"><i class="fa fa-download"></i> Download Resume</a></p>
         </div>
       </div>
     </div>
@@ -259,9 +259,9 @@
       </form>
       <div class="social">
         <ul>
-          <li><a href="https://www.facebook.com/huydq2510"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="https://www.instagram.com/do_quang_huy/?hl=en"><i class="fa fa-instagram"></i></a></li>
-          <li><a href="https://github.com/hyu96"><i class="fa fa-github"></i></a></li>
+          <li><a target="_blank" href="https://www.facebook.com/huydq2510"><i class="fa fa-facebook"></i></a></li>
+          <li><a target="_blank" href="https://www.instagram.com/do_quang_huy/?hl=en"><i class="fa fa-instagram"></i></a></li>
+          <li><a target="_blank" href="https://github.com/hyu96"><i class="fa fa-github"></i></a></li>
         </ul>
       </div>
     </div>

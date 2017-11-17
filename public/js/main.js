@@ -30,7 +30,6 @@ $('#nav').affix({
 	var index=0;
 	$(document).scroll(function(){
 		var top = $('#skills').height()-$(window).scrollTop();
-		console.log(top)
 		if(top<-300){
 			if(index==0){
 
@@ -93,8 +92,20 @@ $('#nav').affix({
 		social_tools: false
 	});
 
-}());
+    $("#download").on('click', function(e) {
+        e.preventDefault();
+        var url = $(this).attr('href');
+        $.ajax({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            },
+            url: url,
+            type: "POST",
+            contentType: "application/json"
+        });
+    });
 
+}());
 
 }
 main();

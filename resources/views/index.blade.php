@@ -81,8 +81,8 @@
       <div class="col-md-12 text-center"><img src="img/about.jpg" class="img-responsive"></div>
       <div class="col-md-8 col-md-offset-2">
         <div class="about-text">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare.</p>
+          <p class="text-center">I'm a young man on the way to be a professional developer</p>
+          <p class="text-center">My passion is everything about technology</p>
           <p class="text-center"><a class="btn btn-primary" id="download" href="{{ route('resume') }}"><i class="fa fa-download"></i> Download Resume</a></p>
         </div>
       </div>
@@ -100,7 +100,7 @@
       <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="60"> <span class="percent">60</span> </span>
         <h4>HTML &amp; CSS</h4>
       </div>
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="85"> <span class="percent">85</span> </span>
+      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">80</span> </span>
         <h4>PHP</h4>
       </div>
       <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="70"> <span class="percent">70</span> </span>
@@ -157,7 +157,7 @@
                 <h4 class="subheading">Web Developer</h4>
               </div>
               <div class="timeline-body">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamcommodo nibh ante facilisis.</p>
+                <p>Part time job at Alt Plus VietNam<br>This is my first company i work for and i'm pleasant about my job in here</p>
               </div>
             </div>
           </li>
@@ -184,11 +184,11 @@
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h4>Bach Khoa University</h4>
+                <h4>HANOI UNIVERSITY OF SCIENCE AND TECHNOLOGY</h4>
                 <h4 class="subheading">Information Technology Engineering</h4>
               </div>
               <div class="timeline-body">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamcommodo nibh ante facilisis.</p>
+                <p>My major is Information Security<br>This is one of the best university in Viet Nam. I have learnt so much from here</p>
               </div>
             </div>
           </li>
@@ -204,7 +204,7 @@
                 <h4 class="subheading">Student</h4>
               </div>
               <div class="timeline-body">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamcommodo nibh ante facilisis.</p>
+                <p>The best time in my student life.</p>
               </div>
             </div>
           </li>

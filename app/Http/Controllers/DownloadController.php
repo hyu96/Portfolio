@@ -9,6 +9,6 @@ class DownloadController extends Controller
 {
     public function downResume()
     {
-    	return response()->download(public_path() . "/data/DoQuangHuy_Resume.pdf");
+        return response()->download(public_path() . "\data\DoQuangHuy_Resume.pdf");
     }
 }

@@ -15,5 +15,5 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::post('/download', 'DownloadController@downResume')->name('resume');
+Route::get('/download', 'DownloadController@downResume')->name('resume');
 

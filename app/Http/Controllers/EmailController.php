@@ -16,6 +16,6 @@ class EmailController extends Controller
         $guest->email = $request->email;
         $guest->message = $request->message;
         $guest->save();
-        return true;
+        return "success";
     }
 }

@@ -17,5 +17,6 @@ Route::get('/', function () {
 
 Route::get('/download', 'DownloadController@downResume')->name('resume');
 
-Route::get('/email', 'EmailController@sendEmail')->name('email');
+Route::post('/email', 'EmailController@sendEmail')->name('email');
+
 

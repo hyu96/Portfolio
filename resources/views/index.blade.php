@@ -81,7 +81,8 @@
       <div class="col-md-12 text-center"><img src="img/about.jpg" class="img-responsive"></div>
       <div class="col-md-8 col-md-offset-2">
         <div class="about-text">
-          <p class="text-center">I am a young man on the way to be a professional developer. My passion is everything about technology</p>
+          <p class="text-center">I am a young man on the way to be a professional developer</p>
+          <p class="text-center">My passion is everything about technology</p>
           <p class="text-center"><a class="btn btn-primary" id="download" href="{{ route('resume') }}"><i class="fa fa-download"></i> Download Resume</a></p>
         </div>
       </div>

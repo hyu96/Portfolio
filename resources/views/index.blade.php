@@ -157,7 +157,7 @@
                 <h4 class="subheading">Web Developer</h4>
               </div>
               <div class="timeline-body">
-                <p>Part time job at Alt Plus VietNam<br>This is my first company i work for and i am pleasant about my job in here</p>
+                <p>Part time job at Alt Plus VietNam<br>This is the first company i have worked for and i am pleasant about my job in here</p>
               </div>
             </div>
           </li>
@@ -188,7 +188,7 @@
                 <h4 class="subheading">Information Technology Engineering</h4>
               </div>
               <div class="timeline-body">
-                <p>My major is Information Security<br>This is one of the best university in Viet Nam. I have learnt so much from here</p>
+                <p>My major is Information Security<br>This is one of the best universities in Viet Nam. I have learnt a lot from here</p>
               </div>
             </div>
           </li>

@@ -16,6 +16,7 @@ class EmailController extends Controller
         $guest->email = $request->email;
         $guest->message = $request->message;
         $guest->save();
+        Mail::to($request->email)->send(new ContactMail($request->name));
         return "success";
     }
 }
